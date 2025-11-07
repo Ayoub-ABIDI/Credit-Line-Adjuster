@@ -17,6 +17,7 @@ It continuously learns from synthetic or real financial data, simulating credit 
 
 CreditLiner/
 ├── 📁 venv/ # Virtual environment (gitignored)
+
 ├── 📄 interface.py # Main Streamlit interface
 ├── 📄 environment.py # RL Environment definition
 ├── 📄 agent.py # TD Agent implementation
@@ -139,6 +140,7 @@ Data Options
 Synthetic generator
 
 Custom CSV upload (required columns: customer features, performance, risk indicators)
+
 
 
 
