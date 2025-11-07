@@ -19,13 +19,23 @@ CreditLiner/
 ├── 📁 venv/ # Virtual environment (gitignored)
 
 ├── 📄 interface.py # Main Streamlit interface
+
 ├── 📄 environment.py # RL Environment definition
+
 ├── 📄 agent.py # TD Agent implementation
+
+
 ├── 📄 training.py # Training logic and procedures
+
 ├── 📄 evaluation.py # Model evaluation framework
+
+
 ├── 📄 utils.py # Utility functions and helpers
+
 ├── 📄 requirements.txt # Python dependencies
+
 ├── 📄 README.md # Project documentation
+
 
 
 ---
@@ -140,6 +150,7 @@ Data Options
 Synthetic generator
 
 Custom CSV upload (required columns: customer features, performance, risk indicators)
+
 
 
 
