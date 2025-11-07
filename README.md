@@ -1,18 +1,18 @@
-# 💳 Credit Line Adjuster - Reinforcement Learning System
+# Credit Line Adjuster - Reinforcement Learning System
 
 An intelligent **Reinforcement Learning (RL)** system that dynamically optimizes **credit line decisions** for financial institutions.  
 The system learns optimal policies to **balance profitability and risk** by adjusting credit limits based on customer behaviors.
 
 ---
 
-## 📘 Overview
+## Overview
 
 The **Credit Line Adjuster** leverages **Q-learning** (Temporal Difference RL) to make adaptive credit limit recommendations for customers.  
 It continuously learns from synthetic or real financial data, simulating credit risk and profitability in dynamic market conditions.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 
 CreditLiner/
@@ -139,5 +139,6 @@ Data Options
 Synthetic generator
 
 Custom CSV upload (required columns: customer features, performance, risk indicators)
+
 
 
