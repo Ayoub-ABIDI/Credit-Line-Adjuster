@@ -29,9 +29,9 @@ CreditLiner/
 
 ---
 
-## 🎯 Core Features
+## Core Features
 
-### 🧠 Reinforcement Learning Engine
+### Reinforcement Learning Engine
 - **TD Learning Agent** implementing **Q-learning**
 - **State Space:** customer features (utilization, payment history, income stability, etc.)
 - **Action Space:**
@@ -40,22 +40,22 @@ CreditLiner/
   - `2` → Increase limit
 - **Reward Function:** Balances short-term profit with long-term portfolio health
 
-### 📊 Data Management
+### Data Management
 - Synthetic customer data generation
 - CSV dataset upload support
 - Automated feature scaling & normalization
 
-### 🏋️ Training Pipeline
+### Training Pipeline
 - Configurable hyperparameters (learning rate, discount factor, exploration)
 - Real-time progress visualization
 - Performance & convergence tracking
 
-### 📈 Evaluation Framework
+### Evaluation Framework
 - Profit vs. risk analysis
 - Default rate tracking
 - Historical performance reports
 
-### 💬 Interactive Simulation (Streamlit UI)
+### Interactive Simulation (Streamlit UI)
 - Real-time scenario testing
 - Adjustable customer parameters:
   - Credit utilization
@@ -67,13 +67,13 @@ CreditLiner/
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
-### 🧩 Prerequisites
+### Prerequisites
 - Python **3.8+**
 - `pip` package manager
 
-### 🔧 Setup Steps
+### Setup Steps
 ```bash
 # Clone the repository
 git clone <repository-url>
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 # Run the Streamlit app
 streamlit run interface.py
 Technical Architecture
-🏗️ RL Components
+RL Components
 state = [utilization, payment_history, income_stability, 
          late_payments_normalized, debt_ratio]
 
@@ -121,7 +121,7 @@ Q-Learning (Off-policy TD Control)
 
 Optional Experience Replay for stability
 
-📈 Performance Metrics
+Performance Metrics
 Category	Metrics
 Training	Episode rewards, ε decay, convergence
 Evaluation	Average profit, risk score, default rate
@@ -139,4 +139,5 @@ Data Options
 Synthetic generator
 
 Custom CSV upload (required columns: customer features, performance, risk indicators)
+
 
